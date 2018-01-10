@@ -24,8 +24,6 @@
 
     <br>
 
-    <% if session[:source] %>
-      <p>Thanks for visiting me from <strong><%= session[:source] %></strong></p>
-    <% end %>
+    <%= source_helper 'application' %>
   </body>
 </html>
