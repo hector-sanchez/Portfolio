@@ -56,3 +56,6 @@ gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.4'
 
 gem 'pry-byebug', '~> 3.5', '>= 3.5.1'
+
+gem 'bootstrap', '~> 4.0.0.beta3'
+gem 'jquery-rails'
