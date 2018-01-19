@@ -60,4 +60,4 @@ gem 'pry-byebug', '~> 3.5', '>= 3.5.1'
 gem 'bootstrap', '~> 4.0.0.beta3'
 gem 'jquery-rails'
 
-gem 'ella_soft_view_tool', git: 'https://github.com/hector-sanchez/ella_soft_view_tool'
+gem 'ella_soft_view_tool', '~> 0.1.0'
