@@ -61,3 +61,5 @@ gem 'bootstrap', '~> 4.0.0.beta3'
 gem 'jquery-rails'
 
 gem 'ella_soft_view_tool', '~> 0.1.0'
+
+gem 'petergate', '~> 1.8', '>= 1.8.1'
