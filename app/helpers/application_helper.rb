@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: 'greeting')
     end
   end
+
+  def copyright_generator
+    @copyright = EllaSoftViewTool::Renderer.copyright "Hector Sanchez", "All rights reserved."
+  end
 end

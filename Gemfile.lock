@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/hector-sanchez/ella_soft_view_tool
+  revision: 91d75b83366f92be40cf8751a886770fe0ef8d08
+  specs:
+    ella_soft_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -198,6 +204,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.4)
+  ella_soft_view_tool!
   friendly_id (~> 5.2, >= 5.2.3)
   jbuilder (~> 2.5)
   jquery-rails
