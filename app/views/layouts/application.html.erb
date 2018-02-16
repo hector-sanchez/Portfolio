@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= @page_title %></title>
-    <%= csrf_meta_tags %>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content='<%= @seo_keywords %>' />
+<head>
+  <title>
+    <%= @page_title %>
+  </title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content='<%= @seo_keywords %>' />
 
-  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 
-          <%= render "shared/application_nav" %>
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+
+        <%= render "shared/application_nav" %>
 
           <br>
 
           <%= yield %>
 
-          <%= render "shared/application_footer" %>
+            <%= render "shared/application_footer" %>
 
-          <%= source_helper 'application' %>
+              <%= source_helper 'application' %>
 
-        </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
